@@ -1,0 +1,54 @@
+.training-main {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+.training {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2rem;
+}
+.card {
+  border-radius: 20px;
+  position: relative;
+  padding: 25px 15px;
+  margin: 3% auto;
+  height: 270px;
+  box-shadow: 0 2px 3px #ccc;
+  width: 300px;
+}
+.cardImg {
+  width: 60%;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.trainingtext {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 30px;
+  display: flex;
+}
+.text1 {
+  margin: auto;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  line-height: 15px;
+}
+.cardname {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+  color: black;
+  padding: 0.5rem 1rem 0;
+}

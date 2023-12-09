@@ -1,0 +1,63 @@
+article {
+  position: relative;
+}
+
+.servicesImage {
+  height: 450px;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  padding: 3px;
+}
+.answer_wrapper {
+  height: 0;
+  overflow: hidden;
+}
+.answer_wrapper.open {
+  height: auto;
+}
+.servicesbutton {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  margin: 10px;
+  background-color: #ffffff;
+}
+.servicestext {
+  text-indent: 50px;
+  margin: 13px;
+  background-color: #ffffff;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  line-height: 18px;
+  font-size: 15px;
+}
+.servicesheader {
+  color: blue;
+  font-weight: bold;
+}
+@media screen and (max-width: 1050px) {
+  .servicesheader {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .servicesbutton {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .servicestext {
+    font-size: 21px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .servicesheader {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}

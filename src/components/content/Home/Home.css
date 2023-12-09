@@ -1,0 +1,56 @@
+.homeImage {
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+  resize: contain;
+}
+.slide-container {
+  direction: ltr;
+  width: 100%;
+  margin: auto;
+  padding-top: 3px;
+}
+.imagetext {
+  top: 15%;
+  bottom: auto;
+  font-size: 30px;
+  color: black;
+  height: fit-content;
+  font-weight: bold;
+  font-style: italic;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 3rem;
+  background-color: rgb(70, 66, 66);
+}
+.headerImage {
+  height: 450px;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  padding: 3px;
+}
+.hometext {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: black;
+  line-height: 20px;
+  text-indent: 50px;
+  margin: 2%;
+}
+@media screen and (max-width: 700px) {
+  .hometext {
+    font-size: 18px;
+    line-height: 25p;
+  }
+}

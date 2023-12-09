@@ -1,4 +1,4 @@
-# IDA-solutions-2
+# IDA-solutions
 
 https://codesandbox.io/p/sandbox/ida-solutions-2-qd4n7f?
 
